@@ -1,3 +1,6 @@
+body{
+    margin:0px;
+}
 .Explore{
     text-decoration: none;
     background-image: linear-gradient(red,orange);
@@ -30,7 +33,7 @@
     display: flex;
     margin-bottom: 150px;
 }
-.box{
+.box1{
     
     width: 50%;
     margin-left: 1%;
@@ -38,6 +41,24 @@
     padding-top: 1%;
     border-radius: 10px;
     background-color: oldlace;
+}
+.box2{
+    
+    width: 50%;
+    margin-left: 1%;
+    border: 0px;
+    padding-top: 1%;
+    border-radius: 10px;
+    background-color: rgba(119, 136, 153, 0.486);
+}
+.box3{
+    
+    width: 50%;
+    margin-left: 1%;
+    border: 0px;
+    padding-top: 1%;
+    border-radius: 10px;
+    background-color: rgba(153, 205, 50, 0.507);
 }
 .box-intro{
     text-align: center;
@@ -64,4 +85,35 @@ span{
 .bottom-line{
     background-color: black;
     padding-top: 10px;
+    border: none;
+}
+.form{
+    color: white;
+    text-align: center;
+}
+.sign-up{
+    
+    width: 50%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    margin-right:0%;   
+    border: 0px;
+    padding-top: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+    background-color:plum;
+}
+.intro-border{
+    border-left: 4px solid;
+    border-image: linear-gradient(green,yellow);
+    border-image-slice: 1;
+    border-radius: 0px;   
+}
+.bd{
+    padding-left: 5px;
+}
+#p{
+    font-size: 15px;
+    font-weight: 530;
+    font-family: 'Rubik', sans-serif;
 }
